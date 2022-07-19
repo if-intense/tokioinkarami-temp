@@ -359,11 +359,86 @@
    02. common
    ========================================================================== */
 
+
+
 #container{ background: #D7D2CB;}
 
-#contents{ width: 900px; margin: 0 auto;　box-shadow: 0 0 10px rgba(0,0,0,.3);}
+#contents{ width: 900px; margin: 0 auto;box-shadow: 0 0 10px rgba(0,0,0,.3);}
 @media screen and (max-width:899px) {
 #contents{ width: 100%; }
+}
+
+
+
+.bg-premium {
+   background: rgba(196, 199, 19, 0.8);
+   padding:15px 0px;
+}
+
+.bg-premium a {
+   color:#000;
+   font-size: 1em;
+   font-weight: bold;
+  
+}
+
+.bg-headspa a {
+   color:rgba(57, 5, 118,1);
+   font-size: 1em;
+   font-weight: bold;
+}
+
+.bg-headspa {
+   background: rgba(255,255,255,0.8);
+   padding:15px 0px;
+}
+
+.tokio-pr-hs {
+   position:fixed;
+   z-index: 998;
+   bottom:4%;
+   /* font-size: 0.8em; */
+}
+
+.to-ib {
+   position:fixed;
+   top:3%;
+   right:3%;
+   background:rgba(255,255,255,0.9);
+   padding:10px;
+   z-index: 100;
+   color:#000;
+   border-radius: 5px;
+   box-shadow: 1px 3px 6px rgba(0,0,0,0.66);
+}
+
+.to-ib p {
+   margin:3px 0 0;
+   font-size: 0.8em;
+}
+
+.to-ifing-beauty {
+   display: none;
+   position:fixed;
+   bottom:0%;
+   right: 0%;
+   left:0;
+   z-index: 999;
+   width:100%;
+   /* max-width: 900px; */
+   margin:0 auto;
+   text-align: center;
+   /* background:#fff; */
+   /* padding:5px; */
+   color:#000;
+   border-radius: 5px;
+   box-shadow: 3px 3px 5px rgba(0,0,0,0.66);
+}
+
+.to-ifing-beauty p {
+   font-size: 0.8em;
+   margin-top: 5px;
+   margin-bottom: 0;
 }
 
 .logo {
@@ -880,6 +955,20 @@ header {
 .sect-012 {
    background: linear-gradient(to bottom, #d8c9aa 0%,#d8c9aa 44%,#ffffff 100%);
    padding-bottom: 60px;;
+}
+
+.sect-012 .video-text a {
+   color:white;
+   background:rgb(70,183,88);
+   padding:10px 20px;
+   font-size:1.5em;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.sect-012 .video-text a:hover {
+   background:rgb(23, 158, 46);
+   text-decoration: none;
 }
 
 .sect-012 h2 {
