@@ -1015,6 +1015,41 @@ header {
    color: #B6362D;
 }
 
+.sect-040 {
+   background:#fff;
+   padding:80px 0;
+}
+
+.sect-040 .preface {
+   width:90%;
+   margin:0 auto;
+   padding:10px 20px;
+   border:2px solid rgb(237,72,51);
+ }
+
+ .sect-040 .preface h6 {
+   font-size:1em;
+   font-weight: bold;
+   margin:2vh auto;
+   padding-bottom: 3px;
+   border-bottom:1px solid #534641;
+ }
+
+ .sect-040 .preface p {
+   font-size:0.8em;
+   margin:0;
+ }
+
+ .sect-041 {
+   padding:6vh 0;
+   background:#fff;
+ }
+
+ .sect-041 h5 {
+   color:#ED5A40;
+   font-weight: bold;
+ }
+
 
 .sect-014 {
    background: linear-gradient(to bottom, #d8c9aa 0%,#ffffff 50%,#ffffff 100%);
@@ -2103,7 +2138,7 @@ header {
 footer {
    width: 100%;
     background: #603813;
-    padding: 20px 0;
+    padding: 20px 0 6vh;
 }
 
 footer p {
